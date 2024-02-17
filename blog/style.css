@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@500&family=Martian+Mono:wght@600&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+header
+{
+  background-color: #002 ;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+.logo
+{
+  text-decoration: none;
+  color:#FFBF00 ;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.8em;
+  transition: .6s;
+}
+.nav-bar a
+{
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+
+  padding-left: 30px;
+  transition: .6s;
+}
+.nav-bar a:hover,.logo:hover
+{
+  color: #5D8BF4;
+  scale: 1.1;
+}
+section{
+  background: #001;
+  border-radius: 25px;
+  margin: 0px 25px 25px 25px;
+}
+#smoke ,#why1 ,#negatives ,#why2 ,#shakl ,#how , #prev
+{
+  padding: 50px 200px;
+}
+#no
+{
+  padding: 100px 200px 50px 200px;
+}
+h3 ,h2
+{
+  color: #FFBF00;
+}
+p , ol ,.menu a
+{
+    padding: 7px;
+    text-decoration: none;
+    margin: auto;
+    color: #fff;
+}
+
+
+#why ol
+{
+  padding: auto;
+}
+li
+{
+
+  padding: 7px;
+}
